@@ -1,10 +1,32 @@
 # LLM4S
 
-A toolkit for writing LLM based applications in Scala. Including both basic few shot calling, tool calling and agentic style.
-Harnessing the power of types and Scala we can provide a robust framework for all levels of applications.
+Goal: To provide a simple, robust and scalable framework for building LLM applications in Scala.
+
+N.b. This is most definitely a work in progress project and is likely to change significantly over time.
+
+Whilst most LLM work is done in Python we believe that Scala can offer a fundamentally better foundation for 
+building reliable, maintainable AI-powered applications.
+
+The goal of this project is large but unobtainable - take the lessons learned from the Python LLM ecosystem and build
+even better tooling platform.
+
+This we want to implement (and the equivalent python frameworks):
+
+* Single API access multiple LLM providers (LiteLLM)
+* A great tool chain for building LLM apps (LangChain/LangGraph)
+* An agentic framework (PydanticAI, CrewAI etc)
+
+
 
 
 # Random Todos
+
+
+ - [ ] Add a tiktoken port 
+ - [ ] Generalize calling API to be able to call anthropic as well.
+ - [ ] Implement full agentic loop code
+ - [ ] Implement a simple tool calling mechanism
+
 
 ## React loop
 
